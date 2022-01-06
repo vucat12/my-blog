@@ -1,5 +1,6 @@
 import routes from "./router";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Footer from "../common-components/Footer";
 
 function Routing() {
 
@@ -12,6 +13,7 @@ function Routing() {
           path={element.path}
           />))}
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 }
