@@ -4,9 +4,12 @@ import Routing from './router/Routing';
 function App() {
 
   return (
-    <>
-      <Routing/>
-    </>
+    <div>
+      <div>
+        <Routing/>
+      </div>
+    </div>
+    
   );
 }
 
