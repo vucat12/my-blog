@@ -1,11 +1,13 @@
+import { useEffect } from "react";
 import RecommendBlog from "../common-components/RecommendBlog";
+import { BlogProps } from "../Model/Blogs";
+
+let dataJson = require('../json/ListMyBlog.json');
 
 function MyBlog() {
-  const recommend = {
-    title: "string",
-    createdDate: "string",
-    content: "string"
-  }
+  useEffect(() => {
+    console.log(dataJson)
+  }, [])
 
   return (
     <div>
@@ -19,7 +21,7 @@ function MyBlog() {
           Blogs
         </h1>
         <div>
-          <RecommendBlog {...recommend}/>
+          { dataJson.map((el: BlogProps) => <RecommendBlog {...el}/>)}
         </div>
       </div>
       

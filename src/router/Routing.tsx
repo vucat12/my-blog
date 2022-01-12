@@ -8,7 +8,7 @@ function Routing() {
     <BrowserRouter>
       <Routes>
           {routes.map(element => (<Route 
-          element={element.content}
+          element={<div className="min-height-70vh">{element.content}</div>}
           key={element.title}
           path={element.path}
           />))}
