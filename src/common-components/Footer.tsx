@@ -17,10 +17,10 @@ function Footer() {
       <div className="footer-contact pt-6 w-96 m-auto ">
         <Container>
           <Row  xs="auto" className="justify-center">
-            <Col><Facebook className="text-2xl"/></Col>
-            <Col><Github className="text-2xl"/></Col>
-            <Col><Linkedin className="text-2xl"/></Col>
-            <Col><Instagram className="text-2xl"/></Col>
+            <Col><Facebook className="text-2xl" onClick={() => window.open("https://facebook.com/vucat3012", "_blank")}/></Col>
+            <Col><Github className="text-2xl" onClick={() => window.open("https://github.com/vucat12", "_blank")}/></Col>
+            <Col><Linkedin className="text-2xl" onClick={() => window.open("https://www.linkedin.com/in/vucat/", "_blank")}/></Col>
+            <Col><Instagram className="text-2xl" onClick={() => window.open("https://www.instagram.com/vucat3012/", "_blank")}/></Col>
           </Row>
         </Container>
         
