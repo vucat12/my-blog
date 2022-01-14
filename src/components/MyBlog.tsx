@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Col, Container, Row } from "react-bootstrap";
 import RecommendBlog from "../common-components/RecommendBlog";
 import { BlogProps } from "../Model/Blogs";
 
@@ -6,7 +7,7 @@ let dataJson = require('../json/ListMyBlog.json');
 
 function MyBlog() {
   useEffect(() => {
-    console.log(dataJson)
+    
   }, [])
 
   return (
@@ -16,12 +17,14 @@ function MyBlog() {
           <em>Vũ Cát's Blog</em>
         </div>
       </div>
-      <div>
+      <div className="sm:px-20">
         <h1 className="p-4 text-3xl font-bold underline text-center">
           Blogs
         </h1>
         <div>
-          { dataJson.map((el: BlogProps) => <RecommendBlog {...el}/>)}
+          { dataJson.map((el: BlogProps, index: number) => (
+          <RecommendBlog {...el} key={index}/>
+          )) }
         </div>
       </div>
       

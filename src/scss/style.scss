@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import "mediaqueries";
+@import "nuevo";
 
 /************/
 
@@ -15,29 +17,4 @@ body {
     line-height: 1em;
     width: 100vw;
     font-size: 16px;
-}
-
-.footer {
-    background-color: #FFFFFF;
-    width: 100%;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-}
-
-.background-blog {
-    background-image: url(../../public/img/Background-Home.jpg);
-    width: 100%;
-    background-size: cover;
-    background-position: center center;
-    height: 400px;
-}
-
-.transform-translate-50 {
-    transform: translate(-50%, -50%);
-}
-
-.min-height-70vh {
-    min-height: 70vh;
 }
