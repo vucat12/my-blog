@@ -6,7 +6,7 @@ function NotFound() {
 
   return (
     <div className='relative h-100 min-height-70vh'>
-      <div className='absolute top-1/2 left-1/2 transform-translate-50 text-center top-1/2'>
+      <div className='absolute top-1/2 left-1/2 transform-translate-50 text-center'>
         <h1 className="font-bold number-404">
           404
         </h1>

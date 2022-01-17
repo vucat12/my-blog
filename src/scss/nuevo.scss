@@ -42,3 +42,9 @@ hr.hr-gray {
 .text-ooops {
     font: 500 5vmin "Courgette";
 }
+
+.background-resume {
+    background: #4173ea;
+    background: -webkit-gradient(linear,left top,left bottom,from(#4173ea),to(#41bcea));
+    background: linear-gradient(180deg,#4173ea,#41bcea);
+}

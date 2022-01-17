@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import { Col, Container, Row } from "react-bootstrap";
 import RecommendBlog from "../common-components/RecommendBlog";
 import { BlogProps } from "../Model/Blogs";
 

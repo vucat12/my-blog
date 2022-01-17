@@ -1,11 +1,11 @@
 import routes from "./router";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter , Route, Routes } from "react-router-dom";
 import Footer from "../common-components/Footer";
 
 function Routing() {
 
   return (
-    <BrowserRouter>
+    <HashRouter >
       <Routes>
           {routes.map(element => (<Route 
           element={<div className="min-height-70vh">{element.content}</div>}
@@ -14,7 +14,7 @@ function Routing() {
           />))}
       </Routes>
       <Footer/>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

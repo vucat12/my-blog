@@ -1,6 +1,7 @@
 import NotFound from '../common-components/NotFound';
 import DetailedBlog from '../components/DetailedBlog';
 import MyBlog from '../components/MyBlog';
+import MyResume from '../components/MyResume';
 
 const routes = [
   {
@@ -17,6 +18,11 @@ const routes = [
     path: 'detailed-blog/:id',
     title: 'NotFound',
     content: <DetailedBlog/>
+  },
+  {
+    path: '/my-resume',
+    title: 'MyResume',
+    content: <MyResume/>
   }
 ];
 

@@ -1,10 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
 import { Facebook, Github, Instagram, Linkedin } from 'react-bootstrap-icons';
-import { useNavigate } from "react-router-dom";
-
 
 function Footer() {
-  const navigate = useNavigate();
 
   return (
     <div className="footer md:p-12 py-12">
