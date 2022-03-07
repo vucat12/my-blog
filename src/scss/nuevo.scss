@@ -27,6 +27,10 @@
     min-height: 70vh;
 }
 
+.min-height-80vh {
+    min-height: 80vh;
+}
+
 hr.hr-gray {
     background-color: #ccc;
     height: 1px;
@@ -47,4 +51,22 @@ hr.hr-gray {
     background: #4173ea;
     background: -webkit-gradient(linear,left top,left bottom,from(#4173ea),to(#41bcea));
     background: linear-gradient(180deg,#4173ea,#41bcea);
+}
+
+.navigation {
+    padding: 10px 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    background-color: #15329769;
+}
+
+.img-about-me {
+    background-image: url(../../public/img/Image-About-Me.jpg);
+    width: 100%;
+    background-position: center center;
+    height: 385px;
+    background-repeat: no-repeat;
 }
