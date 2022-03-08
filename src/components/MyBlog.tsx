@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import RecommendBlog from "../common-components/RecommendBlog";
 import { BlogProps } from "../Model/Blogs";
 import AboutMe from "./AboutMe";
+import MySkills from "./MySkills";
 
 let dataJson = require('../json/ListMyBlog.json');
 
@@ -18,6 +19,7 @@ function MyBlog() {
         </div>
       </div>
       <AboutMe/>
+      <MySkills/>
       <div className="sm:px-20">
         <h1 className="p-4 text-3xl font-bold underline text-center">
           Blogs
