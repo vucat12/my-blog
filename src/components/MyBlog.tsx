@@ -3,6 +3,7 @@ import RecommendBlog from "../common-components/RecommendBlog";
 import { BlogProps } from "../Model/Blogs";
 import AboutMe from "./AboutMe";
 import MySkills from "./MySkills";
+import MyWorking from "./MyWorking";
 
 let dataJson = require('../json/ListMyBlog.json');
 
@@ -20,6 +21,7 @@ function MyBlog() {
       </div>
       <AboutMe/>
       <MySkills/>
+      <MyWorking/>
       <div className="sm:px-20">
         <h1 className="p-4 text-3xl font-bold underline text-center">
           Blogs

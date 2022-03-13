@@ -18,24 +18,24 @@ function MySkills() {
                 </div>
 
                 <div className="col">
-                    <Container>
-                        <Row>
+                    <Container className="mt-2">
+                        <Row className="mt-2">
                             <Col md={3} className="font-bold uppercase">Age</Col>
                             <Col md={9}>22</Col>
                         </Row>
-                        <Row>
+                        <Row className="mt-2">
                             <Col md={3} className="font-bold uppercase">address</Col>
                             <Col md={9}>196 Tiểu La</Col>
                         </Row>
-                        <Row>
+                        <Row className="mt-2">
                             <Col md={3} className="font-bold uppercase">Blog</Col>
                             <Col md={9}>https://catbeo.com</Col>
                         </Row>
-                        <Row>
+                        <Row className="mt-2">
                             <Col md={3} className="font-bold uppercase">E-mail</Col>
                             <Col md={9}>vucat12@gmail.com</Col>
                         </Row>
-                        <Row>
+                        <Row className="mt-2">
                             <Col md={3} className="font-bold uppercase">Phone</Col>
                             <Col md={9}>0941447625</Col>
                         </Row>
